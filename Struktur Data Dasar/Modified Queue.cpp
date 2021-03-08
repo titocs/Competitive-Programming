@@ -12,17 +12,17 @@ int main(){
         if(s == "add"){
             cin >> x >> y;
             for(int j=0; j<y; ++j)
-				stack.push_back(x);
-			cout << stack.size() << endl;
-		}
-		if(s == "del"){
-			cin >> y;
-			temp = stack[0];
-			for(int j=0; j<y; ++j)
-				stack.pop_front();
-			cout << temp << endl;
-		}
-		if(s == "rev")
-			reverse(stack.begin(), stack.end());
-	}
+                stack.push_back(x);
+            cout << stack.size() << endl;
+        }
+        if(s == "del"){
+            cin >> y;
+            temp = stack[0];
+            for(int j=0; j<y; ++j)
+                stack.pop_front();
+            cout << temp << endl;
+        }
+        if(s == "rev")
+            reverse(stack.begin(), stack.end());
+    }
 }

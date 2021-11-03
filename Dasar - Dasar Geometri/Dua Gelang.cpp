@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 typedef long long ll;
 int main(){
     ll x1, y1, x2, y2, r1, r2;

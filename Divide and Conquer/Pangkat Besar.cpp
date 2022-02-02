@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
 int a, b, hasil;
 bool besar;
 typedef long long ll;

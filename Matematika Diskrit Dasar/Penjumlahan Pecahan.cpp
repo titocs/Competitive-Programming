@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 #define fpb(a, b) __gcd(a, b)
 typedef long long ll;
 

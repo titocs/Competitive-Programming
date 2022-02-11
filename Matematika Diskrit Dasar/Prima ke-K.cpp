@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-
 #define MAX_SIZE 1000005
  
 void SieveOfEratosthenes(vector<int>& primes){

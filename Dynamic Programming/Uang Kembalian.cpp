@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 int n, x;
 int arr[500];
 bool computed[50069];
